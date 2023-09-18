@@ -219,13 +219,6 @@ const SearchApp = () => {
 									<p className="link-secondary text-decoration-none" to="#">
 										English B-1
 									</p>
-									<p className="link-secondary text-decoration-none" to="#">
-										Portugués
-										<br />
-										A-2 Speaking
-										<br />
-										B(1-2) Listening and Reading
-									</p>
 								</li>
 							</ul>
 						</div>
