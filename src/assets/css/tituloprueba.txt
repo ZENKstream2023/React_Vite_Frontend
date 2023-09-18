@@ -1,0 +1,169 @@
+//////////////////////////////
+Este código va dentro de un .jsx y la hoja de estilos está en ../assets/css/h1.css
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////
+
+
+								<div className="z-3 position-absolute">
+										<svg
+											className="svg-text__shaded hover"
+											x="10%"
+											y="20%"
+											fill="white"
+											textAnchor="start"
+										>
+											{/* Add your SVG content here */}
+										</svg>
+										<svg
+											className="svg-text"
+											width="1.5em"
+											height="0.7em"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<defs>
+												<filter id="drop-stroke-shadow">
+													<feGaussianBlur in="SourceAlpha" stdDeviation="10" />
+												</filter>
+												<symbol id="stroke">
+													<text
+														x="25%"
+														y="33.5%"
+														fill="none"
+														strokeWidth=".035em"
+														strokeLinecap="round"
+														strokeLinejoin="round"
+														paintOrder="stroke fill"
+														textAnchor="middle"
+													>
+														Aritz Robledo Jorge
+													</text>
+												</symbol>
+												<symbol id="fill">
+													<text x="25%" y="30%" textAnchor="middle">
+														Aritz Robledo Jorge
+													</text>
+												</symbol>
+											</defs>
+											<g className="svg-text__shaded__stroke" stroke="#00cccc">
+												<use
+													y="10%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#stroke"
+													opacity="0.5"
+													filter="url(#drop-stroke-shadow)"
+												/>
+												<use
+													y="3%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#stroke"
+												/>
+												<use
+													y="2%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#stroke"
+												/>
+												<use
+													y="1%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#stroke"
+												/>
+												<use
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#stroke"
+													stroke="#61dafb"
+												/>
+											</g>
+											<g fill="#e6e6e6">
+												<use
+													className="svg-text__shaded"
+													y="7%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#fill"
+												/>
+												<use
+													y="6.5%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#fill"
+												/>
+												<use
+													y="6%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#fill"
+												/>
+												<use
+													y="5.5%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#fill"
+												/>
+												<use
+													y="5%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#fill"
+												/>
+												<use
+													y="4.5%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#fill"
+												/>
+												<use
+													y="4%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#fill"
+												/>
+												<use
+													y="3.5%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#fill"
+													fill="white"
+												/>
+											</g>
+										</svg>
+									</div>
+									<div>
+										<svg
+											className="svg-text__shaded hover"
+											x="10%"
+											y="20%"
+											fill="white"
+											textAnchor="start"
+										>
+											{/* Add your SVG content here */}
+										</svg>
+										<svg
+											className="svg-text"
+											width="1.5em"
+											height="0.7em"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<defs></defs>
+											<g className="svg-text__shaded__stroke" stroke="#00cccc">
+												<use
+													y="5%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#stroke-2"
+													opacity="0.5"
+													filter="url(#drop-stroke-shadow)"
+												/>
+												<use
+													y="3%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#stroke-2"
+												/>
+												<use
+													y="2%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#stroke-2"
+												/>
+												<use
+													y="1%"
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#stroke-2"
+												/>
+												<use
+													xmlnsXlink="http://www.w3.org/1999/xlink"
+													xlinkHref="#stroke-2"
+													stroke="#61dafb"
+												/>
+											</g>
+										</svg>
+									</div>

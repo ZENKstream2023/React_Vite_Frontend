@@ -1,0 +1,229 @@
+{
+	"clientes": [
+		{
+			"id": 1,
+			"nombre": "Ana García",
+			"email": "ana@example.com",
+			"telefono": "1234567890",
+			"direccion": "Calle 123, Ciudad",
+			"usuario": "ana_garcia",
+			"password": "contraseña123"
+		},
+		{
+			"id": 2,
+			"nombre": "Juan Pérez",
+			"email": "juan@example.com",
+			"telefono": "9876543210",
+			"direccion": "Avenida XYZ, Ciudad",
+			"usuario": "juan_perez",
+			"password": "contraseña456"
+		}
+	],
+	"mangas": [
+		{
+			"id": 1,
+			"titulo": "Naruto",
+			"descripcion": "Naruto Uzumaki, un joven ninja con sueños de ser el Hokage de la Aldea Oculta de la Hoja, lucha por ganarse el respeto de los demás y se embarca en emocionantes aventuras.",
+			"genero": "Acción, Aventura, Shounen",
+			"rating": 8.3,
+			"precio": 25.99,
+			"imagen": "naruto.jpg",
+			"iva": 4.15984
+		},
+		{
+			"id": 2,
+			"titulo": "My Hero Academia",
+			"descripcion": "Izuku Midoriya, un joven sin poderes en un mundo donde casi todos los seres humanos tienen habilidades especiales llamadas Quirks, se esfuerza por convertirse en un héroe.",
+			"genero": "Acción, Superpoderes, Shounen",
+			"rating": 8.0,
+			"precio": 22.5,
+			"imagen": "my_hero_academia.jpg",
+			"iva": 3.6
+		},
+		{
+			"id": 3,
+			"titulo": "Attack on Titan",
+			"descripcion": "La humanidad lucha por sobrevivir contra enormes humanoides devoradores de personas conocidos como Titanes. Eren Yeager y sus amigos se unen al Cuerpo de Exploración para proteger a la humanidad.",
+			"genero": "Acción, Drama, Fantasía",
+			"rating": 9.0,
+			"precio": 28.75,
+			"imagen": "attack_on_titan.jpg",
+			"iva": 4.6
+		}
+	],
+	"articulos": [
+		{
+			"id": 1,
+			"nombre": "Figura de acción de Naruto",
+			"descripcion": "Figura detallada de Naruto Uzumaki con múltiples puntos de articulación.",
+			"categoria": "Figuras de acción",
+			"precio": 35.99,
+			"imagen": "naruto_action_figure.jpg",
+			"iva": 5.75984
+		},
+		{
+			"id": 2,
+			"nombre": "Póster de My Hero Academia",
+			"descripcion": "Póster a todo color de los personajes principales de My Hero Academia.",
+			"categoria": "Pósters",
+			"precio": 10.5,
+			"imagen": "my_hero_academia_poster.jpg",
+			"iva": 1.68
+		},
+		{
+			"id": 3,
+			"nombre": "Camiseta de Attack on Titan",
+			"descripcion": "Camiseta de alta calidad con el logo de Attack on Titan impreso.",
+			"categoria": "Ropa",
+			"precio": 18.25,
+			"imagen": "attack_on_titan_tshirt.jpg",
+			"iva": 2.92
+		}
+	],
+	"cartas_sueltas": [
+		{
+			"id": 1,
+			"nombre": "Goku Super Saiyan",
+			"descripcion": "Carta suelta de Goku en su forma Super Saiyan de Dragon Ball Z.",
+			"serie": "Dragon Ball Z",
+			"precio": 3.5,
+			"imagen": "goku_super_saiyan.jpg",
+			"iva": 0.56
+		},
+		{
+			"id": 2,
+			"nombre": "Pikachu",
+			"descripcion": "Carta suelta de Pikachu de Pokémon.",
+			"serie": "Pokémon",
+			"precio": 2.75,
+			"imagen": "pikachu.jpg",
+			"iva": 0.44
+		}
+	],
+	"sobres": [
+		{
+			"id": 1,
+			"nombre": "Sobre Dragon Ball Z",
+			"descripcion": "Sobre sellado de Dragon Ball Z que contiene cartas aleatorias.",
+			"serie": "Dragon Ball Z",
+			"precio": 4.99,
+			"imagen": "dragon_ball_z_sobre.jpg",
+			"iva": 0.7984
+		},
+		{
+			"id": 2,
+			"nombre": "Sobre Pokémon",
+			"descripcion": "Sobre sellado de Pokémon que contiene cartas aleatorias.",
+			"serie": "Pokémon",
+			"precio": 3.99,
+			"imagen": "pokemon_sobre.jpg",
+			"iva": 0.6384
+		}
+	],
+	"cajas_sobres": [
+		{
+			"id": 1,
+			"nombre": "Caja de Sobres Dragon Ball Z",
+			"descripcion": "Caja que contiene 24 sobres sellados de Dragon Ball Z.",
+			"serie": "Dragon Ball Z",
+			"precio": 89.99,
+			"imagen": "dragon_ball_z_caja_sobres.jpg",
+			"iva": 14.3984
+		},
+		{
+			"id": 2,
+			"nombre": "Caja de Sobres Pokémon",
+			"descripcion": "Caja que contiene 36 sobres sellados de Pokémon.",
+			"serie": "Pokémon",
+			"precio": 119.99,
+			"imagen": "pokemon_caja_sobres.jpg",
+			"iva": 19.1984
+		}
+	],
+	"metodos_pago": [
+		{
+			"id": 1,
+			"nombre": "Tarjeta de crédito",
+			"descripcion": "Pague con su tarjeta de crédito. Aceptamos Visa, MasterCard y American Express."
+		},
+		{
+			"id": 2,
+			"nombre": "PayPal",
+			"descripcion": "Realice el pago a través de su cuenta de PayPal para una experiencia rápida y segura."
+		},
+		{
+			"id": 3,
+			"nombre": "Transferencia bancaria",
+			"descripcion": "Realice una transferencia bancaria a nuestra cuenta. Los detalles se proporcionarán al finalizar la compra."
+		}
+	],
+	"pedidos": [
+		{
+			"id": 1,
+			"cliente_id": 1,
+			"articulos": [
+				{
+					"articulo_id": 1,
+					"cantidad": 2,
+					"iva": 4.15984
+				},
+				{
+					"articulo_id": 3,
+					"cantidad": 1,
+					"iva": 2.92
+				}
+			],
+			"total": 59.23,
+			"iva": 7.07984,
+			"fecha": "2023-07-27",
+			"metodo_pago_id": 1,
+			"estado_pago": "Pagado"
+		},
+		{
+			"id": 2,
+			"cliente_id": 2,
+			"articulos": [
+				{
+					"articulo_id": 2,
+					"cantidad": 3,
+					"iva": 5.28
+				}
+			],
+			"total": 156.5,
+			"iva": 5.28,
+			"fecha": "2023-07-28",
+			"metodo_pago_id": 2,
+			"estado_pago": "Pagado"
+		},
+		{
+			"id": 3,
+			"cliente_id": 2,
+			"articulos": [
+				{
+					"articulo_id": 2,
+					"cantidad": 3,
+					"iva": 5.28
+				}
+			],
+			"total": 86.5,
+			"iva": 5.28,
+			"fecha": "2023-07-28",
+			"metodo_pago_id": 2,
+			"estado_pago": "Pagado"
+		}
+	],
+	"top_ventas": [
+		{
+			"articulo_id": 1,
+			"cantidad_vendida": 5
+		},
+		{
+			"articulo_id": 2,
+			"cantidad_vendida": 3
+		},
+		{
+			"articulo_id": 3,
+			"cantidad_vendida": 2
+		}
+	]
+}
