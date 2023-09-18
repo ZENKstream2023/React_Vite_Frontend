@@ -1,12 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "../App.css";
 import axios from "axios";
 import Global from "@/Global";
 import { useParams } from "react-router";
+
 function EditContact() {
 	const url = Global.url;
-	console.log(useParams());
-	const { companyId } = useParams();
+	const objeto = useParams();
+	const valoresDelObjeto = Object.values(objeto);
+	const companyId = valoresDelObjeto[0];
+
+	// Utiliza useRef para crear referencias
+	const empresaRef = useRef(null);
+	const emailRef = useRef(null);
+	const direccionRef = useRef(null);
+	const asuntoRef = useRef(null);
+	const descripcionRef = useRef(null);
+	const frontRef = useRef(null);
+	const backRef = useRef(null);
+	const fullRef = useRef(null);
+
 	const [formData, setFormData] = useState({
 		company: "",
 		email: "",
@@ -15,15 +28,6 @@ function EditContact() {
 		description: "",
 		typejob: "",
 	});
-
-	const empresaRef = React.createRef();
-	const emailRef = React.createRef();
-	const direccionRef = React.createRef();
-	const asuntoRef = React.createRef();
-	const descripcionRef = React.createRef();
-	const frontRef = React.createRef();
-	const backRef = React.createRef();
-	const fullRef = React.createRef();
 
 	const recibirFormulario = (e) => {
 		e.preventDefault();
