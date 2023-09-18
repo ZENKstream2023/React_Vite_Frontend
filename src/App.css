@@ -337,7 +337,7 @@ textarea{
 @media (max-width: 1203px){
   #logo{
       float:none;
-      width: 343px;
+      width: 500px;
       margin: 0px auto;
       margin-top:20px;
   }
@@ -354,18 +354,55 @@ textarea{
       width: 70%;
   }
 }
+/* Estilos para pantallas con un ancho máximo de 767px */
+@media (max-width: 767px) {
+  /* Estilos para ocultar la lista de elementos en el menú */
+ .banner h1 {
+    padding-inline:10%;
+    
+  }
 
+  #logobanner{
+   padding-left:5%;
+    animation: girar-2 infinite 40s linear;
+  }
+  
+  #secondlogobanner{
+    padding-right:5%;
+    animation: girar-3 infinite 40s linear;
+  }
+  
+}
+/* Estilos para pantallas con un ancho máximo de 767px */
+@media (max-width: 659px) {
+  /* Estilos para ocultar la lista de elementos en el menú */
+ .banner h1 {
+    display:none;
+    
+  }
+
+  #logobanner{
+   padding-left:5%;
+    animation: girar-2 infinite 40s linear;
+  }
+  
+  #secondlogobanner{
+    padding-right:5%;
+    animation: girar-3 infinite 40s linear;
+  }
+  
+}
 /* Desde la anchura 0px hasta la anchura 494px de pantalla*/
 @media (max-width: 494px){
   /*Se ejecutarán estos estilos */
 
   #menu ul{
-      line-height: 50px;
+      line-height: 10px;
   }
 
   #menu ul li{
-      margin-left: 7px;
-      margin-right: 7px;
+      margin-left: 2px;
+      margin-right: 3px;
   }
 
   #slider{

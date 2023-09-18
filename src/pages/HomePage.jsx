@@ -6,7 +6,7 @@ export const HomePage = () => {
 	return (
 		<>
 			<div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
-				<div className="col-md-6 p-lg-5 mx-auto my-5">
+				<div className="banner col-md-6 p-lg-5 mx-auto my-5">
 					<h1 className="z-3 position-absolute display-3 fw-bold">
 						ARITZ ROBLEDO JORGE
 					</h1>

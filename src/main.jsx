@@ -67,6 +67,7 @@ const SearchApp = () => {
 										Full<b>Stack Dev</b>eloper
 									</h2>
 								</NavLink>
+								
 								<ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
 									{/*<li>
 										<form
