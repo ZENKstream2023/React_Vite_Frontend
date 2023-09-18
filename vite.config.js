@@ -11,5 +11,8 @@ export default defineConfig({
 			"@components": "/src/components", // Alias para la carpeta 'components'
 			// Agrega otros alias aquí si lo deseas
 		},
+		server: {
+			https: true, // Habilitar HTTPS
+		},
 	},
 });
