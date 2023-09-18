@@ -1,14 +1,6 @@
 {
     "routes": [
       {
-        "src": "/index.html",
-        "dest": "/index.html"
-      },
-      {
-        "src": "/static/(.*)",
-        "dest": "/static/$1"
-      },
-      {
         "src": ".*",
         "dest": "/index.html"
       }
