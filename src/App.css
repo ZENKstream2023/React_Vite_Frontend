@@ -393,9 +393,20 @@ textarea{
   
 }
 /* Desde la anchura 0px hasta la anchura 494px de pantalla*/
+@media (max-width: 532px){
+  /*Se ejecutarán estos estilos */
+ .interested, #articles .slider{
+  display:none;
+}
+
+}
+
+/* Desde la anchura 0px hasta la anchura 494px de pantalla*/
 @media (max-width: 494px){
   /*Se ejecutarán estos estilos */
-
+ .image-wrap{
+  width:15%;
+}
   #menu ul{
       line-height: 10px;
   }

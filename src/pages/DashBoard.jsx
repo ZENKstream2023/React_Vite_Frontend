@@ -84,7 +84,7 @@ export const DashBoard = () => {
 								aria-label="Close"
 							></button>
 						</div>
-						<div className="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
+						<div className="offcanvas-body menu-left d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
 							<ul className="nav flex-column">
 								<li className="nav-item">
 									<NavLink

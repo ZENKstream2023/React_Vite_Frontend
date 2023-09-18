@@ -242,7 +242,7 @@ class Contact extends Component {
 						</button>
 					</form>
 					<br />
-					<h2 className="subheader text-center">
+					<h2 className="subheader interested text-center">
 						<b>Interested </b>companies
 					</h2>
 					<br />
@@ -251,7 +251,7 @@ class Contact extends Component {
 							{this.state.forms.length === 0 ? (
 								<p>No se encontraron formularios</p>
 							) : (
-								<Slider {...settings}>
+								<Slider className="slider" {...settings}>
 									{this.state.forms.map((form, i) => (
 										<div key={i} className="text-center">
 											<h2>{form.company}</h2>
